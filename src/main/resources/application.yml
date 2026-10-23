@@ -1,0 +1,7 @@
+server:
+  port: ${SERVER_PORT:8080}
+
+app:
+  rate-limit:
+    requests-per-minute: ${APP_RATE_LIMIT_REQUESTS_PER_MINUTE:60}
+    burst-capacity: ${APP_RATE_LIMIT_BURST_CAPACITY:10}
