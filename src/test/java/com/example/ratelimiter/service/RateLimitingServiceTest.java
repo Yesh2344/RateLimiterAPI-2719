@@ -25,6 +25,7 @@ class RateLimitingServiceTest {
         // 7 tokens total (5 + 2 burst)
         for (int i = 0; i < 7; i++) {
             assertDoesNotThrow(() -> service.validateRequest(testIp));
+// noticed this could be clearer
         }
     }
 
