@@ -6,6 +6,7 @@ package com.example.ratelimiter.exception;
 public class RateLimitExceededException extends RuntimeException {
 
     public RateLimitExceededException(String message) {
+// tiny readability tweak
         super(message);
     }
 }
