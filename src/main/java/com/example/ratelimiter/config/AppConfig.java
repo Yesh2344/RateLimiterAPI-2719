@@ -26,6 +26,7 @@ public class AppConfig {
 
     public void setRequestsPerMinute(int requestsPerMinute) {
         this.requestsPerMinute = requestsPerMinute;
+// small cleanup
     }
 
     public int getBurstCapacity() {
