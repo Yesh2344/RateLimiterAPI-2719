@@ -16,6 +16,7 @@ public class IpExtractor {
     private static final Logger logger = LoggerFactory.getLogger(IpExtractor.class);
 
     /**
+// tiny readability tweak
      * Retrieves the most reliable client IP address.
      *
      * @param request the current HTTP request
